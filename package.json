@@ -1,0 +1,21 @@
+{
+  "name": "public-apps",
+  "version": "0.0.1",
+  "description": "jambonz webhook applications for anyone to use",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "jslint": "eslint app.js lib"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@jambonz/node-client": "^0.2.1",
+    "express": "^4.17.1",
+    "pino": "^6.11.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-plugin-promise": "^5.1.0"
+  }
+}
