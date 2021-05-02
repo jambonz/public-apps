@@ -21,4 +21,7 @@ Answers incoming call and plays a greeting using text-speech
 ### POST /dial-time
 Dials out through your configured Carrier to a Canadian phone number that speaks the current Eastern Time every 10 seconds
 
+### POST /call-status
+Receives call-status events.
+
 
