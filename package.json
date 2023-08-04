@@ -1,6 +1,6 @@
 {
   "name": "public-apps",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "jambonz webhook applications for anyone to use",
   "main": "app.js",
   "scripts": {
@@ -10,12 +10,12 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@jambonz/node-client": "^0.2.1",
-    "express": "^4.17.1",
-    "pino": "^6.11.3"
+    "@jambonz/node-client": "^0.3.52",
+    "express": "^4.18.2",
+    "pino": "^8.15.0"
   },
   "devDependencies": {
-    "eslint": "^7.25.0",
-    "eslint-plugin-promise": "^5.1.0"
+    "eslint": "^8.46.0",
+    "eslint-plugin-promise": "^6.1.1"
   }
 }
