@@ -14,6 +14,7 @@ app.locals = {
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use('/static', express.static('static'))
 app.use('/', routes);
 app.use((err, req, res, next) => {
   logger.error(err, 'burped error');
